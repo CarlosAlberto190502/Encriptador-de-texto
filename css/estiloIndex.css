@@ -1,5 +1,6 @@
 #entrada_texto{
     outline:none;
+    resize:none;
 }
 #entrada_texto::placeholder{
     color: #0A3871;
@@ -19,6 +20,9 @@ button{
         background: #F3F5FC;
     }
     
+#display_resultado{
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
 
 @media only screen and (min-width: 1440px) {
     #display_secciones{
