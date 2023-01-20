@@ -36,7 +36,10 @@ button{
     #marco-header{
         width: 120px;
     }
-
+    #marco-header div{
+        display: flex;
+        justify-content: center;
+    }
 
     #marco-formulario{
         padding: 40px;
